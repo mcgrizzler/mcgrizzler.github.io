@@ -1,0 +1,96 @@
+body {
+    background-color: #333333;
+    margin: 2% 2%;
+}
+
+img {
+    border-radius: 50%;
+    max-width:100%;
+    max-height:100%;
+}
+
+.header {
+    color: #E6D8AB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.avatar {
+    width: 275px;
+    height: 275px;
+    margin: -265px 5px;
+}
+
+.colorGridTable {
+    margin: 255px 315px;
+    resize: none;
+}
+
+.colorGrid {
+    width: 35px;
+    height: 25px;
+}
+
+.infoHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #E6D8AB;
+    margin: -10px 315px;
+    white-space:nowrap;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #E6D8AB;
+    margin: 10px 315px;
+    white-space:nowrap;
+}
+
+.footer {
+    color: #E6D8AB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: fixed; left:32px; top:475px;
+}
+
+a:link {
+    color: #3C7A7C;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #3C7A7C;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #CE7991;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #3C7A7C;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
